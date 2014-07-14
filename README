@@ -1,0 +1,17 @@
+Moda is an R package that provides functions for modelling and solving
+multi-objective optimisation problems under uncertainty through
+Monte-Carlo simulation and Pareto-based optimisation. It also computes 
+the expected value of total and partial perfect information.
+
+The functions in moda are part of our method for supporting software
+requirements and architecture decisions described in
+
+E. Letier, David Stefan, and Earl T. Barr, 
+Uncertainty, Risk, and Information Value 
+in Software Requirements and Architecture,
+ICSE 2014.
+
+The package contains the models for the examples given in that paper
+(under /inst/examples/ICSE14 in the package sources).
+
+Contact e.letier@ucl.ac.uk for any question.

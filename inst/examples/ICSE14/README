@@ -1,0 +1,16 @@
+The folder contains the two examples from the ICSE 2014 paper.
+
+Section 2 Example: CAD
+-----------------------
+* CAD.R is the script for the example of Section 2
+
+Section 3 Example: SAS
+----------------------
+* SAS2.R is the script for the example of Section 3.
+* data.cvs is the input data for the SAS model coming from the GuideArch paper.
+* Criteria.Rdata is the matrix of expected net benefit and project risk 
+for all 6912 candidate architectures generated using SAS2.R (the random 
+simuation in SAS2.R is seeded so it always generates the same reults).
+* shortlist.Rdata gives the shortlisted architecture computed from Critieria.Rdata
+
+Because we found and fixed a couple of minor bugs while refactoring the tool and reworking the examples, the shortlist is slightly different from taht of the paper. Contact me if you would like the initial original tool and results and I will gladly send them to you.

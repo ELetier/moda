@@ -1,0 +1,11 @@
+Package: moda
+Type: Package
+Title: Multi-Objective Decision Analysis
+Version: 0.1
+Date: 2014-03-17
+Author: Emmanuel Letier; David Stefan
+Maintainer: Emmanuel Letier <e.letier@ucl.ac.uk>
+Description: Supports decisions under uncertainty with Monte-Carlo simulation,
+    multi-objective optimisation, and information value analysis
+License: MIT + file LICENSE
+Suggests: testthat
